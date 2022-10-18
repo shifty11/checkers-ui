@@ -6,6 +6,7 @@ declare global {
       ADDRESS_TEST_ALICE: string
       MNEMONIC_TEST_BOB: string
       ADDRESS_TEST_BOB: string
+      FAUCET_URL: string
     }
   }
 }
