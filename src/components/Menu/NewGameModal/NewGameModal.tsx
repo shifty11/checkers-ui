@@ -170,7 +170,7 @@ export default class NewGameModal extends Component<
                         name: p2Name,
                         score: 0
                     },
-                    turn: 1
+                    turn: 1,
                 };
                 const saved: IGameInfo[] = Lockr.get("saved_games") || [];
                 Lockr.set("saved_games", [info, ...saved]);

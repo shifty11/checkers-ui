@@ -31,7 +31,7 @@ const Board = (props: IBoardProps) => {
         });
         squares.push(<div className="hidden" key={`hidden${row}`} />);
     });
-
+    console.log(props.squares);
     return (
         <div
             id="board"
